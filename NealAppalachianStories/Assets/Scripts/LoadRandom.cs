@@ -7,6 +7,7 @@ public class LoadRandom : MonoBehaviour
 {
     public void LoadRandomScene()
     {
+        //random range for scenes
         int index = Random.Range(1, 3);
         SceneManager.LoadScene(index);
         Debug.Log("Scene Loaded");
