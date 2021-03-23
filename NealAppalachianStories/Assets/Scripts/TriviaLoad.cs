@@ -6,23 +6,22 @@ using UnityEngine.Events;
 
 public class TriviaLoad : MonoBehaviour
 {
-
-    
+// GameObjects for the "correct" and "incorrect" text that displays during trivia
     public GameObject correct;
     public GameObject incorrect;
 
-    //
-    public void HandleInputData(int val)
+    //input data for New River Gorge trivia -- the second value in the choices is the correct one
+    public void HandleInputData1(int val)
     {
         if(val == 2)
         {
+            correct.SetActive(true);
             incorrect.SetActive(false);
             Debug.Log("Correct");
         } else
         {
-   
+            incorrect.SetActive(true);
             correct.SetActive(false);
-            
             Debug.Log("Incorrect");
         }
     }
