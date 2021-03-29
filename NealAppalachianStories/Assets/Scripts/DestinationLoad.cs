@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class DestinationLoad : MonoBehaviour
 {
   
-    //allows player to go back to destination 1 by OnClick
+    //allows player to move between destinations on button click
     public void Destination1()
     {
         SceneManager.LoadScene("Destination1", LoadSceneMode.Single);
@@ -21,16 +21,4 @@ public class DestinationLoad : MonoBehaviour
         SceneManager.LoadScene("Destination3", LoadSceneMode.Single);
     }
 
-
-    // Start is called before the first frame update
-    void Start()
-    {
-      
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

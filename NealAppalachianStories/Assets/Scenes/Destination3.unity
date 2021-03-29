@@ -2493,11 +2493,11 @@ MonoBehaviour:
     m_Options:
     - m_Text: Select
       m_Image: {fileID: 0}
-    - m_Text: Tennessee and North Carolina
+    - m_Text: Tennessee and N.C.
       m_Image: {fileID: 0}
     - m_Text: Tennessee and Kentucky
       m_Image: {fileID: 0}
-    - m_Text: North Carolina and Virginia
+    - m_Text: N.C. and Virginia
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:

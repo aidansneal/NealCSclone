@@ -43,7 +43,7 @@ public class TriviaLoad : MonoBehaviour
         }
     }
 
-    //input data for Natural Bridge trivia -- the second value in the choices is the correct one
+    //input data for Smoky Mountains trivia -- the first value in the choices is the correct one
     public void HandleInputData3(int val)
     {
         if (val == 1)
@@ -60,18 +60,4 @@ public class TriviaLoad : MonoBehaviour
         }
     }
 
-
-
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

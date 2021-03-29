@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class LoadRandom : MonoBehaviour
 {
+    //Loads random scene when START is clicked
     public void LoadRandomScene()
     {
         //random range for scenes
@@ -13,17 +14,4 @@ public class LoadRandom : MonoBehaviour
         Debug.Log("Scene Loaded");
     }
 
-
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
